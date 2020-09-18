@@ -11,8 +11,6 @@ body {
   /* background-repeat: no-repeat; */
   background-position: center;
   background-size: cover;
-  max-width: 1200px;
-  margin: 20px auto;
 }
 
 h1,
@@ -22,18 +20,41 @@ h2 {
   /* text-align: center; */
 }
 
-/* .grid {
-    display: inline-grid;
-  grid-template-columns: 200px;
-} */
+.list {
+  padding: 0;
+  margin: 0;
+  /* list-style: none; */
+}
+
+.wraper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.grid {
+  /* margin: 0 auto; */
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 
 .task {
-  padding: 20px;
-  display: inline-grid;
+  padding: 15px;
+  /* display: inline-grid; */
   /* grid-template-rows: 200px; */
-  grid-template-columns: 200px;
+  /* grid-template-columns: 200px; */
   /* text-align: center; */
 }
+
+.center {
+  text-align: center;
+}
+
+/* .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 #validation-input {
   border: 3px solid #bdbdbd;

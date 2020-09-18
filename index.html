@@ -14,107 +14,111 @@
     />
     <title>Doc</title>
   </head>
-  <body class="grig">
-    <!-- TASK 1 -->
-    <div class="task">
-      <h1 class="title">Задание 1</h1>
-      <ul id="categories">
-        <li class="item">
-          <h2>Животные</h2>
+  <body>
+    <div class="wraper">
+      <div class="content grid">
+        <!-- TASK 1 -->
+        <div class="task">
+          <h1 class="title">Задание 1</h1>
+          <ul id="categories" class="list">
+            <li class="item">
+              <h2>Животные</h2>
 
-          <ul>
-            <li>Кот</li>
-            <li>Хомяк</li>
-            <li>Лошадь</li>
-            <li>Попугай</li>
+              <ul class="list">
+                <li>Кот</li>
+                <li>Хомяк</li>
+                <li>Лошадь</li>
+                <li>Попугай</li>
+              </ul>
+            </li>
+            <li class="item">
+              <h2>Продукты</h2>
+
+              <ul class="list">
+                <li>Хлеб</li>
+                <li>Петрушка</li>
+                <li>Творог</li>
+              </ul>
+            </li>
+            <li class="item">
+              <h2>Технологии</h2>
+
+              <ul class="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node</li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li class="item">
-          <h2>Продукты</h2>
+        </div>
+        <!-- end TASK 1 -->
 
-          <ul>
-            <li>Хлеб</li>
-            <li>Петрушка</li>
-            <li>Творог</li>
-          </ul>
-        </li>
-        <li class="item">
-          <h2>Технологии</h2>
+        <!-- TASK 2 -->
+        <div class="task">
+          <h1 class="title">Задание 2</h1>
+          <ul id="ingredients" class="list"></ul>
+        </div>
+        <!-- end TASK 2 -->
 
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node</li>
-          </ul>
-        </li>
-      </ul>
+        <!-- TASK 3 -->
+        <div class="task">
+          <h1 class="title">Задание 3</h1>
+          <ul id="gallery" class="list"></ul>
+        </div>
+        <!-- end TASK 3 -->
+
+        <!-- TASK 4 -->
+        <div id="counter" class="task center">
+          <h1 class="title">Задание 4</h1>
+          <button type="button" data-action="decrement">-1</button>
+          <span id="value">0</span>
+          <button type="button" data-action="increment">+1</button>
+        </div>
+        <!--  end TASK 4 -->
+
+        <!-- TASK 5 -->
+        <div class="task">
+          <h1 class="title">Задание 5</h1>
+          <input type="text" placeholder="Ваше имя?" id="name-input" />
+          <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+        </div>
+        <!-- end TASK 5 -->
+
+        <!-- TASK 6 -->
+        <div class="task">
+          <h1 class="title">Задание 6</h1>
+          <input
+            type="text"
+            id="validation-input"
+            data-length="6"
+            placeholder="Введи 6 символов"
+          />
+        </div>
+        <!-- end TASK 6 -->
+
+        <!-- TASK 7 -->
+        <div class="task center">
+          <h1 class="title">Задание 7</h1>
+          <input id="font-size-control" type="range" />
+          <br />
+          <span id="text">Абракадабра!</span>
+        </div>
+        <!-- end TASK 7 -->
+
+        <!-- TASK 8 -->
+        <div id="controls" class="task">
+          <h1 class="title">Задание 8</h1>
+          <input type="number" min="0" max="100" step="1" />
+          <button type="button" data-action="render">Создать</button>
+          <button type="button" data-action="destroy">Очистить</button>
+        </div>
+
+        <div id="boxes"></div>
+        <!-- end TASK 8 -->
+      </div>
     </div>
-    <!-- end TASK 1 -->
-
-    <!-- TASK 2 -->
-    <div class="task">
-      <h1 class="title">Задание 2</h1>
-      <ul id="ingredients"></ul>
-    </div>
-    <!-- end TASK 2 -->
-
-    <!-- TASK 3 -->
-    <div class="task">
-      <h1 class="title">Задание 3</h1>
-      <ul id="gallery"></ul>
-    </div>
-    <!-- end TASK 3 -->
-
-    <!-- TASK 4 -->
-    <div id="counter" class="task">
-      <h1 class="title">Задание 4</h1>
-      <button type="button" data-action="decrement">-1</button>
-      <span id="value">0</span>
-      <button type="button" data-action="increment">+1</button>
-    </div>
-    <!--  end TASK 4 -->
-
-    <!-- TASK 5 -->
-    <div class="task">
-      <h1 class="title">Задание 5</h1>
-      <input type="text" placeholder="Ваше имя?" id="name-input" />
-      <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
-    </div>
-    <!-- end TASK 5 -->
-
-    <!-- TASK 6 -->
-    <div class="task">
-      <h1 class="title">Задание 6</h1>
-      <input
-        type="text"
-        id="validation-input"
-        data-length="6"
-        placeholder="Введи 6 символов"
-      />
-    </div>
-    <!-- end TASK 6 -->
-
-    <!-- TASK 7 -->
-    <div class="task">
-      <h1 class="title">Задание 7</h1>
-      <input id="font-size-control" type="range" />
-      <br />
-      <span id="text">Абракадабра!</span>
-    </div>
-    <!-- end TASK 7 -->
-
-    <!-- TASK 8 -->
-    <div id="controls" class="task">
-      <h1 class="title">Задание 8</h1>
-      <input type="number" min="0" max="100" step="1" />
-      <button type="button" data-action="render">Создать</button>
-      <button type="button" data-action="destroy">Очистить</button>
-    </div>
-
-    <div id="boxes"></div>
-    <!-- end TASK 8 -->
 
     <script src="./js/task-1.js" type="module"></script>
     <script src="./js/task-2.js" type="module"></script>
