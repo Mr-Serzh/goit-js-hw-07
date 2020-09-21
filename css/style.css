@@ -105,6 +105,7 @@ $desktop: 1200px; */
   justify-content: center;
 } */
 
+/* style fo TASK 6 */
 #validation-input {
   border: 3px solid #bdbdbd;
 }
@@ -116,3 +117,4 @@ $desktop: 1200px; */
 #validation-input.invalid {
   border-color: #f44336;
 }
+/* end style fo TASK 6 */
