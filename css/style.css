@@ -42,7 +42,6 @@ img {
 }
 
 .grid {
-  /* margin: 0 auto; */
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -51,6 +50,7 @@ img {
   padding: 15px;
 }
 
+/* BUTTON */
 .rezult-btn {
   display: inline-flex;
   justify-content: center;
