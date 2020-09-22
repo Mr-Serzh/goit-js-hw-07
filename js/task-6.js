@@ -25,7 +25,7 @@ const inputEl = document.querySelector('#validation-input');
 inputEl.addEventListener('blur', checkLength);
 
 function checkLength() {
-  if (inputEl.value.length === +inputEl.dataset.length) {
+  if (inputEl.value.length === Number(inputEl.dataset.length)) {
     inputEl.classList.remove('invalid');
     inputEl.classList.add('valid');
   } else if (inputEl.value.length === 0) {
