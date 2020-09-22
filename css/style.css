@@ -72,6 +72,12 @@ img {
   justify-content: center;
 } */
 
+/* style fo TASK 1 */
+.rezult {
+  padding: 0;
+}
+/* end style fo TASK 1 */
+
 /* style fo TASK 3 */
 .gallery-list {
   list-style: none;
@@ -95,3 +101,6 @@ img {
   border-color: #f44336;
 }
 /* end style fo TASK 6 */
+
+/* style fo TASK 7 */
+/* end style fo TASK 7 */
