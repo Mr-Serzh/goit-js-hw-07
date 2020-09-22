@@ -105,6 +105,16 @@ $desktop: 1200px; */
   justify-content: center;
 } */
 
+/* style fo TASK 3 */
+.gallery-list {
+  list-style: none;
+}
+
+.image-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+/* end style fo TASK 3 */
+
 /* style fo TASK 6 */
 #validation-input {
   border: 3px solid #bdbdbd;
