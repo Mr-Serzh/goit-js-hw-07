@@ -44,4 +44,7 @@ rezultBtn.addEventListener('click', () => {
       `- Количество элементов: ${element.querySelectorAll('li').length}`,
     );
   });
+
+  // Btn of
+  rezultBtn.disabled = true;
 });
