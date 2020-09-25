@@ -13,6 +13,6 @@ const textEl = document.querySelector('#text');
 resizeEl.oninput = function () {
   textEl.setAttribute(
     'style',
-    `font-size: ${resizeEl.value / 4}px; color: #e5e110;`,
+    `font-size: ${resizeEl.value}px; color: #e5e110;`,
   );
 };
