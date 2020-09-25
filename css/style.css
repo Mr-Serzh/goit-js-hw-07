@@ -41,15 +41,9 @@ img {
 }
 
 .wraper {
-  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 0 15px;
 }
-
-/* .grid {
-  display: inline-grid;
-  grid-template-columns: repeat(4, 1fr);
-} */
 
 @media screen and (min-width: 480px) {
   .wraper {
@@ -60,6 +54,7 @@ img {
 @media screen and (min-width: 768px) {
   .wraper {
     width: 768px;
+    margin-top: 20px;
   }
 
   .grid {
@@ -67,12 +62,9 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .grid-2 {
-    grid-row-start: span 2;
-  }
-
   .grid-3 {
     grid-row-start: 1;
+    grid-row-end: 3;
     grid-column-start: 2;
   }
 
@@ -89,6 +81,18 @@ img {
   .grid {
     display: inline-grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-1 {
+    grid-row-start: span 3;
+  }
+
+  .grid-3 {
+    grid-row-start: span 3;
+  }
+
+  .grid-8 {
+    grid-column-start: span 1;
   }
 }
 
@@ -111,12 +115,6 @@ img {
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 /* end MAINE */
-
-/* .flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 /* style fo TASK 1 */
 .rezult {
@@ -148,5 +146,5 @@ img {
 }
 /* end style fo TASK 6 */
 
-/* style fo TASK 7 */
-/* end style fo TASK 7 */
+/* style fo TASK 8 */
+/* end style fo TASK 8 */
