@@ -18,7 +18,7 @@
     <div class="container wraper">
       <div class="content grid">
         <!-- TASK 1 -->
-        <div class="task">
+        <div class="task grid-1">
           <h1 class="title">Задание 1</h1>
           <ul id="categories" class="list">
             <li class="item">
@@ -62,21 +62,21 @@
         <!-- end TASK 1 -->
 
         <!-- TASK 2 -->
-        <div class="task">
+        <div class="task grid-2">
           <h1 class="title">Задание 2</h1>
           <ul id="ingredients" class="list"></ul>
         </div>
         <!-- end TASK 2 -->
 
         <!-- TASK 3 -->
-        <div class="task center">
+        <div class="task grid-3">
           <h1 class="title">Задание 3</h1>
           <ul id="gallery" class="list"></ul>
         </div>
         <!-- end TASK 3 -->
 
         <!-- TASK 4 -->
-        <div id="counter" class="task center">
+        <div id="counter" class="task grid-4">
           <h1 class="title">Задание 4</h1>
           <button type="button" data-action="decrement">-1</button>
           <span id="value">0</span>
@@ -85,7 +85,7 @@
         <!--  end TASK 4 -->
 
         <!-- TASK 5 -->
-        <div class="task">
+        <div class="task grid-5">
           <h1 class="title">Задание 5</h1>
           <input type="text" placeholder="Ваше имя?" id="name-input" />
           <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
@@ -93,7 +93,7 @@
         <!-- end TASK 5 -->
 
         <!-- TASK 6 -->
-        <div class="task">
+        <div class="task grid-6">
           <h1 class="title">Задание 6</h1>
           <input
             type="text"
@@ -105,23 +105,23 @@
         <!-- end TASK 6 -->
 
         <!-- TASK 7 -->
-        <div class="task center">
+        <div class="task grid-7">
           <h1 class="title">Задание 7</h1>
-          <input id="font-size-control" type="range" />
+          <input id="font-size-control" type="range" min="8" max="30" />
           <br />
           <span id="text">Абракадабра!</span>
         </div>
         <!-- end TASK 7 -->
 
         <!-- TASK 8 -->
-        <div id="controls" class="task">
+        <div id="controls" class="task grid-8">
           <h1 class="title">Задание 8 ... в процесcе 👨‍💻</h1>
           <input type="number" min="0" max="100" step="1" />
           <button type="button" data-action="render">Создать</button>
           <button type="button" data-action="destroy">Очистить</button>
         </div>
 
-        <div id="boxes"></div>
+        <div id="boxes" class="center"></div>
         <!-- end TASK 8 -->
       </div>
     </div>
