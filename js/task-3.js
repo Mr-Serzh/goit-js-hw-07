@@ -35,7 +35,7 @@ const galleryEl = document.querySelector('#gallery');
 galleryEl.insertAdjacentHTML(
   'afterbegin',
   images
-    .map(element => `<li><img src="${element.url}" alt="${element.alt}"></li>`)
+    .map(({ url, alt }) => `<li><img src="${url}" alt="${alt}"></li>`)
     .join(''),
 );
 
